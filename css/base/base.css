@@ -12,6 +12,19 @@
 	--color-primary-light: #52b9ff;
 	--color-primary-dark: #28b485;
 
+	/* ALerts */
+	--color-red: #fed7d7;
+	--color-red-dark: #e53e3e;
+
+	--color-green: #c6f6d5;
+	--color-green-dark: #38a169;
+
+	--color-blue: #bee3f8;
+	--color-blue-dark: #3182ce;
+
+	--color-yellow: #feebc8;
+	--color-yellow-dark: #dd6b20;
+
 	--color-font-primary: #3e4152;
 
 	--color-secondary-light: #ffb900;

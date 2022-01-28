@@ -17,6 +17,9 @@
 @import url('./css/pages/documentation.css');
 @import url('./css/pages/home.css');
 
+/* COMPONENTS */
+@import url('./component.css');
+
 /* BUTTON STYLE */
 .btn {
 	text-transform: uppercase;

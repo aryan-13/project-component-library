@@ -12,10 +12,13 @@
 .doc-nav {
 	/* background-color: aqua; */
 	grid-area: nav;
+	/* position: sticky; */
+	/* top: 0; */
 }
 .doc-sidebar {
 	grid-area: sidebar;
 	background-color: var(--color-grey-light-1);
+	/* position: sticky; */
 }
 .doc-main {
 	/* background-color: green; */
@@ -25,6 +28,15 @@
 .doc-footer {
 	/* background-color: yellow; */
 	grid-area: footer;
+	position: relative;
+	z-index: -1;
+	/* position: sticky; */
+	/* bottom: 2px; */
+}
+@media only screen and (max-width: 800px) {
+	html {
+		font-size: 50%;
+	}
 }
 @media only screen and (max-width: 550px) {
 	.doc-container {
