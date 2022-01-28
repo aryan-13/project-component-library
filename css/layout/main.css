@@ -1,0 +1,19 @@
+.doc-main {
+	padding: 3rem;
+	overflow-y: auto;
+	height: 55rem;
+}
+.doc-main-item {
+	display: flex;
+	flex-direction: column;
+}
+.main__example {
+	height: 20rem;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+}
+.main__code iframe {
+	width: 100%;
+	margin: 1rem 0;
+}
