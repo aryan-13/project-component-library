@@ -1,0 +1,27 @@
+.doc-sidebar {
+	display: flex;
+	flex-direction: column;
+	/* position: fixed; */
+}
+
+.sidebar-list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	font-weight: 500;
+	justify-content: center;
+	font-size: 1.7rem;
+	padding: 2rem 0.2rem;
+	height: 40rem;
+	overflow-y: auto;
+}
+.sidebar__items {
+	padding: 1rem;
+	border-radius: 0.7rem;
+	cursor: pointer;
+}
+.sidebar__items:hover {
+	background-color: var(--color-primary-light);
+	color: var(--color-white);
+}

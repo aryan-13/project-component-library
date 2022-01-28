@@ -5,6 +5,14 @@
 	margin: 1rem;
 	letter-spacing: 0.1rem;
 }
+.heading--1-medium {
+	font-size: 3rem;
+	font-weight: 800;
+	text-align: center;
+	display: block;
+	margin: 1rem;
+	letter-spacing: 0.1rem;
+}
 .heading--2 {
 	font-size: 2rem;
 	display: block;

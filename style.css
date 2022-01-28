@@ -10,6 +10,7 @@
 @import url('./css/layout/header.css');
 @import url('./css/layout/installation.css');
 @import url('./css/layout/footer.css');
+@import url('./css/layout/sidebar.css');
 /* PAGES */
 @import url('./css/pages/documentation.css');
 @import url('./css/pages/home.css');
