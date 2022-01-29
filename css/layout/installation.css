@@ -5,7 +5,6 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 	padding: 1rem 2rem;
-	/* justify-content: space-evenly; */
 }
 
 .installation__text-box {
@@ -33,4 +32,7 @@
 	.installation__img-box {
 		justify-self: center;
 	}
+}
+.installation-links {
+	align-self: flex-start;
 }

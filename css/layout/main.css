@@ -1,17 +1,15 @@
 .doc-main {
 	padding: 3rem;
 	overflow: auto;
-	/* height: 55rem; */
 }
 .doc-main-item {
 	display: flex;
 	flex-direction: column;
 }
 .main__example {
-	/* height: 20rem; */
 	border: 2px solid black;
 	display: flex;
-	flex-direction: column;
+	font-size: 1.6rem;
 	border-radius: 1rem;
 	padding: 1rem;
 }
@@ -30,7 +28,6 @@
 
 	flex-direction: column;
 	align-items: flex-start;
-	/* justify-content: center; */
 	margin: 2rem 0;
 }
 .main__code iframe {
@@ -39,4 +36,7 @@
 }
 .code-classes {
 	background-color: var(--color-grey-light-1);
+}
+.row-container {
+	align-items: center;
 }
