@@ -19,34 +19,3 @@
 
 /* COMPONENTS */
 @import url('./component.css');
-
-/* BUTTON STYLE */
-/* .btn {
-	text-transform: uppercase;
-	text-decoration: none;
-	padding: 1.2rem 2.5rem;
-	display: inline-block;
-	border-radius: 1rem;
-	transition: all 0.2s;
-	position: relative;
-	font-size: inherit;
-	margin: 0 1rem;
-	border: none;
-	cursor: pointer;
-}
-.btn:hover {
-	transform: translateY(-3px);
-	box-shadow: 0 1rem 2rem rgba(var(--color-black), 0.2);
-}
-.btn:hover::after {
-	transform: scaleX(1.4) scaleY(1.6);
-	opacity: 0;
-}
-.btn-primary {
-	color: var(--color-white);
-	background-color: var(--color-primary);
-}
-.btn-secondary {
-	border: 0.2rem solid var(--color-primary);
-	color: var(--color-primary);
-} */
