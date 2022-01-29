@@ -39,9 +39,12 @@
 	}
 }
 @media only screen and (max-width: 550px) {
+	html {
+		font-size: 45%;
+	}
 	.doc-container {
 		grid-template-columns: 1fr;
-		grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+		grid-template-rows: 0.01fr 0.4fr 2.2fr 1fr;
 		grid-template-areas:
 			'nav'
 			'sidebar'
