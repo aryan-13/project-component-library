@@ -34,3 +34,6 @@
 		justify-self: center;
 	}
 }
+.installation-links {
+	align-self: flex-start;
+}
