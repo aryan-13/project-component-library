@@ -8,10 +8,9 @@
 	flex-direction: column;
 }
 .main__example {
-	/* height: 20rem; */
 	border: 2px solid black;
 	display: flex;
-	flex-direction: column;
+	font-size: 1.6rem;
 	border-radius: 1rem;
 	padding: 1rem;
 }
@@ -39,4 +38,7 @@
 }
 .code-classes {
 	background-color: var(--color-grey-light-1);
+}
+.row-container {
+	align-items: center;
 }
