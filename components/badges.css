@@ -12,7 +12,15 @@
 	position: absolute;
 	font-size: 0.75em;
 	box-sizing: border-box;
-	background-color: green;
+}
+.badge-online {
+	background-color: #00b300;
+}
+.badge-offline {
+	background-color: var(--color-grey-dark);
+}
+.badge-dnd {
+	background-color: red;
 }
 .icon-badge {
 	padding: 2px;
