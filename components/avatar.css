@@ -9,13 +9,10 @@
 	width: 100%;
 }
 .avatar-text {
-	background-color: var(--color-primary);
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	font-weight: 700;
-	font-size: 1.6em;
 }
+
+.avatar-text,
 .avatar-icon {
 	display: flex;
 	align-items: center;
