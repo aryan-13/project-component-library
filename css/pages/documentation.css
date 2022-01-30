@@ -1,7 +1,11 @@
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
 .doc-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 0.2fr 5fr 1.2fr;
+	grid-template-rows: 0.2fr 18fr 1.2fr;
 	grid-template-areas:
 		'nav nav nav nav nav'
 		'sidebar main main main main'

@@ -24,6 +24,11 @@
 	padding: 1rem 0.2rem;
 	overflow-y: auto;
 }
+.sidebar__links {
+	text-decoration: none;
+	color: inherit;
+	padding: 1rem 8rem;
+}
 .sidebar__items {
 	padding: 1rem;
 	border-radius: 0.7rem;

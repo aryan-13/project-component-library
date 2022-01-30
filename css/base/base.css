@@ -46,11 +46,11 @@
 
 html {
 	font-size: 62.5%;
+	scroll-behavior: smooth;
 }
 body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--color-black);
-	scroll-behavior: smooth;
 }
 @media only screen and (max-width: 800px) {
 	html {
