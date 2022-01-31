@@ -1,0 +1,73 @@
+.input-box {
+	width: 100%;
+	display: flex;
+	position: relative;
+	font-size: 1.5rem;
+}
+.input__box-icon {
+	padding: 1.5rem 0.7rem;
+	align-self: center;
+	position: absolute;
+	left: 0.2rem;
+	color: var(--color-grey-dark);
+}
+.input-box .input__box-icon ~ input {
+	padding-left: 3rem;
+}
+.basic-input {
+	width: 100%;
+	padding: 1.5rem;
+	margin: 1rem 1rem 1rem 0rem;
+	border-radius: 0.8rem;
+	outline: none;
+	border: 1.3px solid;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+.basic-input:hover {
+	cursor: pointer;
+}
+.basic-input:focus {
+	border: 2px solid var(--color-primary);
+}
+
+.valid-input {
+	background-color: var(--color-green);
+}
+.valid-input:focus {
+	outline: none;
+
+	border: 2px solid #27c93f;
+}
+.invalid-input {
+	background-color: var(--color-red);
+}
+.invalid-input:focus {
+	outline: none;
+
+	border: 2px solid #ef4646;
+}
+.filled-input {
+	background-color: var(--color-grey-light-2);
+}
+.filled-input:focus {
+	outline: none;
+
+	border: 2px solid var(--color-grey-dark);
+}
+.input-rounded {
+	border-radius: 2.4rem;
+	border: 1.5px solid black;
+}
+.input-sm {
+	font-size: 1.1rem;
+	padding: 1rem;
+}
+.input-md {
+	font-size: 1.5rem;
+	padding: 1.5rem;
+}
+.input-lg {
+	font-size: 1.8rem;
+	padding: 2rem;
+}
