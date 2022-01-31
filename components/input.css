@@ -1,9 +1,11 @@
+/* INPUT CONTAINER */
 .input-box {
 	width: 100%;
 	display: flex;
 	position: relative;
 	font-size: 1.5rem;
 }
+/* ICON USED WITH THE INPUT */
 .input__box-icon {
 	padding: 1.5rem 0.7rem;
 	align-self: center;
@@ -14,6 +16,7 @@
 .input-box .input__box-icon ~ input {
 	padding-left: 3rem;
 }
+/* INPUT VARIANTS */
 .basic-input {
 	width: 100%;
 	padding: 1.5rem;
@@ -30,7 +33,7 @@
 .basic-input:focus {
 	border: 2px solid var(--color-primary);
 }
-
+/* ------- */
 .valid-input {
 	background-color: var(--color-green);
 }
@@ -39,6 +42,7 @@
 
 	border: 2px solid #27c93f;
 }
+/* --------- */
 .invalid-input {
 	background-color: var(--color-red);
 }
@@ -47,6 +51,7 @@
 
 	border: 2px solid #ef4646;
 }
+/* -------- */
 .filled-input {
 	background-color: var(--color-grey-light-2);
 }
@@ -55,10 +60,12 @@
 
 	border: 2px solid var(--color-grey-dark);
 }
+/* -------- */
 .input-rounded {
 	border-radius: 2.4rem;
 	border: 1.5px solid black;
 }
+/* INPUT SIZES */
 .input-sm {
 	font-size: 1.1rem;
 	padding: 1rem;
@@ -71,3 +78,4 @@
 	font-size: 1.8rem;
 	padding: 2rem;
 }
+/* -------------- */
