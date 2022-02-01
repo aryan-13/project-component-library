@@ -48,7 +48,6 @@
 }
 .invalid-input:focus {
 	outline: none;
-
 	border: 2px solid #ef4646;
 }
 /* ----fILLED INPUT WITH GREY---- */
@@ -57,7 +56,6 @@
 }
 .filled-input:focus {
 	outline: none;
-
 	border: 2px solid var(--color-grey-dark);
 }
 /* ----iNPUT WITH ROUNDED EDGES---- */
