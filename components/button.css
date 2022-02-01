@@ -1,3 +1,26 @@
+.button-box {
+	display: flex;
+	align-items: center;
+	position: relative;
+	color: var(--color-white);
+}
+.button-box .btn-box-icon {
+	position: absolute;
+	left: 1.9rem;
+	color: inherit;
+	cursor: pointer;
+}
+.button-box .btn {
+	padding-left: 3.7rem;
+	padding-right: 2rem;
+}
+.button-box .btn:hover {
+	transform: translateY(0);
+	background-color: var(--color-tertiary-dark);
+}
+.noHover {
+	pointer-events: none;
+}
 .btn {
 	text-transform: uppercase;
 	text-decoration: none;
@@ -15,6 +38,7 @@
 .btn:hover {
 	transform: translateY(-3px);
 	box-shadow: 0 1rem 2rem rgba(var(--color-black), 0.2);
+	cursor: pointer;
 }
 .btn:hover::after {
 	transform: scaleX(1.4) scaleY(1.6);
@@ -67,6 +91,7 @@
 .btn-tertiary-icon {
 	font-size: 2rem;
 	color: var(--color-grey-dark);
+	padding: 7px;
 }
 .btn-tertiary-icon:hover {
 	color: var(--color-grey-dark-3);
