@@ -22,7 +22,6 @@
 	overflow-y: auto;
 }
 .sidebar__links {
-	text-decoration: none;
 	color: inherit;
 	padding: 1rem 8rem;
 }
