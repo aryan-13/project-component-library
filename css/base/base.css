@@ -50,6 +50,9 @@ html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
+a {
+	text-decoration: none;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--color-black);
