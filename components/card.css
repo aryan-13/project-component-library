@@ -6,8 +6,6 @@
 	flex-direction: column;
 	width: 25rem;
 	padding: 1rem;
-	-webkit-box-shadow: -1px 1px 15px 0px rgba(176, 176, 176, 1);
-	-moz-box-shadow: -1px 1px 15px 0px rgba(176, 176, 176, 1);
 	box-shadow: -1px 1px 15px 0px rgba(176, 176, 176, 1);
 }
 
