@@ -1,1099 +1,910 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<link
-			rel="stylesheet"
-			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-			crossorigin="anonymous"
-		/>
-		<title>LunarUI</title>
-	</head>
-	<body>
-		<div class="doc-container">
-			<div class="doc-nav">
-				<div class="navigation">
-					<div class="navigation__items--1">
-						<img
-							src="./src/logo2.png"
-							class="navigation__items navigation__logo"
-							alt=""
-						/>
-						<a
-							class="navigation__items navigation-items--1-links"
-							href="./index.html"
-							>Home</a
-						>
-						<a
-							class="navigation__items navigation-items--1-links"
-							href="./documentation.html"
-							>Documentation</a
-						>
-					</div>
-					<div class="navigation__items--2">
-						<i
-							class="navigation__items navigation__items-icons fab fa-github"
-						></i>
-						<i
-							class="navigation__items navigation__items-icons fab fa-twitter"
-						></i>
-						<i
-							class="navigation__items navigation__items-icons fab fa-linkedin"
-						></i>
-					</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+		integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+	<title>LunarUI</title>
+</head>
+
+<body>
+	<div class="doc-container">
+		<div class="doc-nav">
+			<div class="navigation">
+				<div class="navigation__items--1">
+					<img src="./src/logo2.png" class="navigation__items navigation__logo" alt="" />
+					<a class="navigation__items navigation-items--1-links" href="./index.html">Home</a>
+					<a class="navigation__items navigation-items--1-links" href="./documentation.html">Documentation</a>
+				</div>
+				<div class="navigation__items--2">
+					<i class="navigation__items navigation__items-icons fab fa-github"></i>
+					<i class="navigation__items navigation__items-icons fab fa-twitter"></i>
+					<i class="navigation__items navigation__items-icons fab fa-linkedin"></i>
 				</div>
 			</div>
-			<div class="doc-main">
-				<!-- -----------ALERTS--------- -->
-				<section class="doc-main-item" id="alerts">
-					<div class="main__header">
-						<h1 class="heading--1">Alerts</h1>
-						<h1 class="heading--2">
-							Alerts are used to communicate a state that affects a system,
-							feature or page.
-						</h1>
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Usage and Example</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">alert-error</code> :</span
-									>
-									Alert with an error
-								</li>
-
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">alert-success</code> :</span
-									>
-									Alert with an error
-								</li>
-
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">alert-info</code> :</span
-									>
-									Alert with an error
-								</li>
-
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg"> alert-warning</code> :</span
-									>
-									Alert with an error
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example flex-col">
-						<div class="alert-box alert-error">
-							<span><i class="fas fa-exclamation-triangle"></i></span>
-							There was an error processing your request
-						</div>
-						<div class="alert-box alert-success">
-							<span><i class="fas fa-check-circle"></i></span>
-							There was an error processing your request
-						</div>
-						<div class="alert-box alert-info">
-							<span><i class="fas fa-info-circle"></i></span>
-							There was an error processing your request
-						</div>
-						<div class="alert-box alert-warning">
-							<span><i class="fas fa-exclamation-circle"></i></span>
-							There was an error processing your request
-						</div>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-				</section>
-				<!-- --------------------------- -->
-				<div class="u-margin-bottom-medium"></div>
-				<hr />
-				<div class="u-margin-bottom-medium"></div>
-
-				<!-- -----------AVATAR--------- -->
-				<section class="doc-main-item" id="avatar">
-					<div class="main__header">
-						<h1 class="heading--1">Avatar</h1>
-						<h1 class="heading--2">
-							Avatar are used to communicate a state that affects a system,
-							feature or page.
-						</h1>
-					</div>
-					<!-- VARIANTS -->
-					<div class="main__about">
-						<h1 class="heading--1-medium">Variants</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-img</code>
-									</span>
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-icon</code>
-									</span>
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-text</code>
-									</span>
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example row-container">
-						<img
-							class="avatar-circle avatar-sm avatar-img"
-							src="./src/avatar.jpg"
-							alt=""
-						/>
-
-						<div class="avatar-circle avatar-text avatar-sm">AC</div>
-						<div class="avatar-circle avatar-sm avatar-icon">
-							<i class="fas fa-camera"></i>
-						</div>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/SaaQsFhl56ZvTxwTZNZb"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-					<!-- SHAPES -->
-
-					<div class="main__about">
-						<h1 class="heading--1-medium">Shapes</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-circle</code>
-									</span>
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-box</code>
-									</span>
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example row-container">
-						<div class="avatar-circle avatar-sm avatar-icon">
-							<i class="fas fa-camera"></i>
-						</div>
-						<div class="avatar-box avatar-sm avatar-icon">
-							<i class="fas fa-camera"></i>
-						</div>
-						<img
-							class="avatar-img avatar-box avatar-sm"
-							src="./src/avatar.jpg"
-							alt=""
-						/>
-						<img
-							class="avatar-img avatar-circle avatar-sm"
-							src="./src/avatar.jpg"
-							alt=""
-						/>
-						<div class="avatar-circle avatar-text avatar-sm">AC</div>
-
-						<div class="avatar-box avatar-text avatar-sm">AC</div>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/FR5aTIZsbVHVfDQmDALR"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-					<!-- SIZES -->
-
-					<div class="main__about">
-						<h1 class="heading--1-medium">Sizes</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-xs</code>
-									</span>
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-sm</code>
-									</span>
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-md</code>
-									</span>
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-lg</code>
-									</span>
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">avatar-xl</code>
-									</span>
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example row-container">
-						<img
-							class="avatar-img avatar-circle avatar-xs"
-							src="./src/avatar.jpg"
-							alt=""
-						/>
-						<img
-							class="avatar-img avatar-circle avatar-sm"
-							src="./src/avatar.jpg"
-							alt=""
-						/>
-						<img
-							class="avatar-img avatar-circle avatar-md"
-							src="./src/avatar.jpg"
-							alt=""
-						/>
-						<img
-							class="avatar-img avatar-circle avatar-lg"
-							src="./src/avatar.jpg"
-							alt=""
-						/>
-						<img
-							class="avatar-img avatar-circle avatar-xl"
-							src="./src/avatar.jpg"
-							alt=""
-						/>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/uqpdJ5ioeXbXEl1Mtrgn"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-				</section>
-				<!-- -------------------------- -->
-				<div class="u-margin-bottom-medium"></div>
-				<hr />
-				<div class="u-margin-bottom-medium"></div>
-
-				<!-- -------------------------- -->
-				<section class="doc-main-item" id="badge">
-					<div class="main__header">
-						<h1 class="heading--1">Badges</h1>
-						<h1 class="heading--2">
-							Badges are used to highlight an item's status for quick
-							recognition.
-						</h1>
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Variants</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">img-badge</code>
-									</span>
-									<br />
-									Avatar with a badge. These badges can be used with 4 variants
-									of avatar:
-									<span class="color-primary">
-										<code class="code-bg">avatar-xs</code>,
-									</span>
-									<span class="color-primary">
-										<code class="code-bg">avatar-sm</code>,
-									</span>
-									<span class="color-primary">
-										<code class="code-bg">avatar-md</code>,
-									</span>
-									<span class="color-primary">
-										<code class="code-bg">avatar-lg</code>
-									</span>
-									<br />
-									You can use:
-									<ol class="feature-list">
-										<li class="types">
-											<span class="color-primary">
-												<code class="code-bg">badge-online: </code>
-											</span>
-											A badge for online status
-										</li>
-										<br />
-										<li class="types">
-											<span class="color-primary">
-												<code class="code-bg">badge-offline: </code>
-											</span>
-											A badge for offline status
-										</li>
-										<br />
-										<li class="types">
-											<span class="color-primary">
-												<code class="code-bg">badge-dnd: </code>
-											</span>
-											A badge for do not disturb
-										</li>
-										<br />
-									</ol>
-								</li>
-								<br />
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">icon-badge</code>
-									</span>
-									<br />
-									This icon badge must be used with the
-									<span class="color-primary">
-										<code class="code-bg">btn-lg</code>
-									</span>
-									icon button:
-									<span class="color-primary">
-										<code class="code-bg">btn-tertiary-icon</code>
-									</span>
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example row-container">
-						<!-- AVATAR BADGE -->
-						<div class="badge-box">
-							<img
-								class="avatar-img avatar-circle avatar-xs"
-								src="./src/avatar.jpg"
-								alt=""
-							/>
-							<span class="img-badge badge-online"></span>
-						</div>
-						<div class="badge-box">
-							<img
-								class="avatar-img avatar-circle avatar-sm"
-								src="./src/avatar.jpg"
-								alt=""
-							/>
-							<span class="img-badge badge-offline"></span>
-						</div>
-						<div class="badge-box">
-							<img
-								class="avatar-img avatar-circle avatar-md"
-								src="./src/avatar.jpg"
-								alt=""
-							/>
-							<span class="img-badge badge-online"></span>
-						</div>
-						<div class="badge-box">
-							<img
-								class="avatar-img avatar-circle avatar-lg"
-								src="./src/avatar.jpg"
-								alt=""
-							/>
-							<span class="img-badge badge-dnd"></span>
-						</div>
-						<!-- ICON BADGE -->
-						<div class="badge-box">
-							<a href="" class="btn btn-tertiary-icon btn-lg"
-								><i class="fas fa-bell"></i
-							></a>
-							<span class="icon-badge">2</span>
-						</div>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/B69CvQWYIrGN099uhpmD"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-				</section>
-				<!-- --------------------------- -->
-				<div class="u-margin-bottom-medium"></div>
-				<hr />
-				<div class="u-margin-bottom-medium"></div>
-				<!-- -----------BUTTONS--------- -->
-				<section class="doc-main-item" id="button">
-					<div class="main__header">
-						<h1 class="heading--1">Buttons</h1>
-						<h1 class="heading--2">
-							The Button component is used to trigger an action or event, such
-							as submitting a form, opening a dialog, canceling an action, or
-							performing a delete operation.
-						</h1>
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Variants</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">btn-primary</code> :</span
-									>
-									Solid Button
-								</li>
-
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">btn-secondary</code> :</span
-									>
-									Button with an outline
-								</li>
-
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">btn-ghost</code> :</span
-									>
-									Button without an outline
-								</li>
-
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg"> btn-link</code> :</span
-									>
-									Button for links
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg"> btn-link</code> :</span
-									>
-									Button for links
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example row-container">
-						<a href="" class="btn btn-primary">Button</a>
-						<a href="" class="btn btn-secondary">Button</a>
-						<a href="" class="btn btn-ghost">Button</a>
-						<a href="" class="btn btn-link">Button</a>
-						<div class="button-box">
-							<a href="" class="btn btn-primary">Button</a>
-							<i class="fa fa-shopping-cart btn-box-icon"></i>
-						</div>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Sizes</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">btn-xs</code>
-									</span>
-								</li>
-
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">btn-sm</code>
-									</span>
-								</li>
-
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">btn-md</code>
-									</span>
-								</li>
-
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg"> btn-lg</code>
-									</span>
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example row-container">
-						<a href="" class="btn btn-primary btn-xs">Button</a>
-						<a href="" class="btn btn-primary btn-sm">Button</a>
-						<a href="" class="btn btn-primary btn-md">Button</a>
-						<a href="" class="btn btn-primary btn-lg">Button</a>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/QSb2kWE0rMGhx2rD0i5G"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Custom Buttons</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">btn-tertiary-float</code> :</span
-									>
-									Floating button
-								</li>
-
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg"> btn-tertiary-icon</code> :</span
-									>
-									Icon button
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example row-container">
-						<a href="" class="btn btn-tertiary-float"
-							><i class="fas fa-arrow-up"></i
-						></a>
-						<a href="" class="btn btn-tertiary-icon"
-							><i class="fas fa-trash-alt"></i
-						></a>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/lK2cxOwWi1rreqdqSTJd"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-				</section>
-				<!-- --------------------------- -->
-				<div class="u-margin-bottom-medium"></div>
-				<hr />
-				<div class="u-margin-bottom-medium"></div>
-				<!-- -----------INPUT COMPONENT--------- -->
-				<section class="doc-main-item" id="input">
-					<div class="main__header">
-						<h1 class="heading--1">Input</h1>
-						<h1 class="heading--2">
-							The Input component is a component that is used to get user input
-							in a text field.
-						</h1>
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Basic</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">input-box</code> :</span
-									>
-									A basic input field
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example flex-col">
-						<!-- BASIC INPUT -->
-						<input type="text" class="basic-input" placeholder="Basic Input" />
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Variants</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<!-- CLASSES FOR THE VARIANTS OF INPUT -->
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">valid-input</code> :</span
-									>
-									A basic input field
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">invalid-input</code> :</span
-									>
-									A basic input field
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">filled-input</code> :</span
-									>
-									A basic input field
-								</li>
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">input-rounded</code> :</span
-									>
-									A basic input field
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example flex-col">
-						<!-- INPUT WITH AN ICON -->
-						<div class="input-box">
-							<i class="fa fa-envelope input__box-icon"></i>
-							<input
-								type="text"
-								class="basic-input"
-								placeholder="Input with an icon"
-							/>
-						</div>
-						<!-- VALID INPUT -->
-						<input
-							type="text"
-							class="basic-input valid-input"
-							placeholder="Valid Input"
-						/>
-						<!-- INVALID INPUT -->
-						<input
-							type="text"
-							class="basic-input invalid-input"
-							placeholder="Invalid Input"
-						/>
-						<!-- FILLED INPUT -->
-						<input
-							type="text"
-							class="basic-input filled-input"
-							placeholder="Filled Input"
-						/>
-						<!-- INPUT WITH ROUNDED CORNERS -->
-						<input
-							type="text"
-							class="basic-input input-rounded"
-							placeholder="Search..."
-						/>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Sizes</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<!-- SMALL INPUT CLASS -->
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">input-sm</code> :</span
-									>
-									A basic input field
-								</li>
-								<!-- MEDIUM INPUT CLASS -->
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">input-md</code> :</span
-									>
-									A basic input field
-								</li>
-								<!-- LARGE INPUT CLASS -->
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">input-lg</code> :</span
-									>
-									A basic input field
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example flex-col">
-						<!-- SMALL INPUT -->
-						<input
-							type="text"
-							class="basic-input input-sm"
-							placeholder="Valid Input"
-						/>
-						<!-- MEDIUM INPUT -->
-						<input
-							type="text"
-							class="basic-input imput-md"
-							placeholder="Invalid Input"
-						/>
-						<!-- LARGE INPUT -->
-						<input
-							type="text"
-							class="basic-input input-lg"
-							placeholder="Search..."
-						/>
-					</div>
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-				</section>
-				<!-- --------------------------- -->
-				<div class="u-margin-bottom-medium"></div>
-				<hr />
-				<div class="u-margin-bottom-medium"></div>
-				<!-- -------------CARDS-------------- -->
-				<section class="doc-main-item" id="cards">
-					<div class="main__header">
-						<h1 class="heading--1">Cards</h1>
-						<h1 class="heading--2">
-							Alerts are used to communicate a state that affects a system,
-							feature or page.
-						</h1>
-					</div>
-
-					<!-- HORIZONTAL CARDS -->
-					<div class="main__about">
-						<h1 class="heading--1-medium">Horizontal Cards</h1>
-					</div>
-					<div class="main__example row-container">
-						<div class="card-container">
-							<div class="img-box u-margin-bottom-small">
-								<img src="./src/img.jfif" alt="" />
-							</div>
-							<div class="card-header u-margin-bottom-small">
-								<h3 class="card-heading-primary">Our Changing Planet</h3>
-								<h4 class="card-heading-sub">By Aryan Chaudhary</h4>
-							</div>
-							<div class="card-body u-margin-bottom-small">
-								Visit ten places on our planet that are undergoing the biggest
-								changes today.
-							</div>
-							<div class="card-footer">
-								<a class="btn btn-primary btn-sm">Read This</a>
-								<a class="btn btn-primary btn-sm">Bookmark</a>
-								<a href="" class="btn btn-tertiary-icon btn-xs"
-									><i class="fas fa-heart"></i
-								></a>
-
-								<a href="" class="btn btn-tertiary-icon btn-xs"
-									><i class="fas fa-share-alt"></i
-								></a>
-							</div>
-						</div>
-						<div class="card-container">
-							<div class="img-box u-margin-bottom-small">
-								<img src="./src/img.jfif" alt="" />
-							</div>
-							<div class="card-header overlay u-margin-bottom-small">
-								<h3 class="card-heading-primary">Our Changing Planet</h3>
-								<h4 class="card-heading-sub">By Aryan Chaudhary</h4>
-							</div>
-							<div class="card-body u-margin-bottom-small">
-								Visit ten places on our planet that are undergoing the biggest
-								changes today.
-							</div>
-							<div class="card-footer">
-								<a class="btn btn-primary btn-sm">Read This</a>
-								<a class="btn btn-primary btn-sm">Bookmark</a>
-								<a href="" class="btn btn-tertiary-icon btn-xs"
-									><i class="fas fa-heart"></i
-								></a>
-
-								<a href="" class="btn btn-tertiary-icon btn-xs"
-									><i class="fas fa-share-alt"></i
-								></a>
-							</div>
-						</div>
-					</div>
-
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Horizontal Cards</h1>
-					</div>
-					<div class="main__example row-container">
-						<div class="card-container">
-							<div class="card-header u-margin-bottom-small heading-top">
-								<h3 class="card-heading-primary">Our Changing Planet</h3>
-								<h4 class="card-heading-sub">By Aryan Chaudhary</h4>
-							</div>
-							<div class="card-body u-margin-bottom-small">
-								Visit ten places on our planet that are undergoing the biggest
-								changes today.
-							</div>
-							<div class="card-footer">
-								<a class="btn btn-primary btn-sm">Read This</a>
-								<a class="btn btn-primary btn-sm">Bookmark</a>
-								<a href="" class="btn btn-tertiary-icon btn-xs"
-									><i class="fas fa-heart"></i
-								></a>
-
-								<a href="" class="btn btn-tertiary-icon btn-xs"
-									><i class="fas fa-share-alt"></i
-								></a>
-							</div>
-						</div>
-						<div class="card-container small">
-							<div class="flex">
-								<div class="img-box small-img u-margin-bottom-small">
-									<img src="./src/img.jfif" alt="" />
-								</div>
-
-								<div
-									class="card-header card-header-small u-margin-bottom-small"
-								>
-									<h3 class="card-heading-primary">Our Changing Planet</h3>
-									<h4 class="card-heading-sub">By Aryan Chaudhary</h4>
-								</div>
-							</div>
-
-							<div class="card-footer">
-								<a class="btn btn-primary btn-sm">Read This</a>
-								<a class="btn btn-primary btn-sm">Bookmark</a>
-								<a href="" class="btn btn-tertiary-icon btn-xs"
-									><i class="fas fa-heart"></i
-								></a>
-
-								<a href="" class="btn btn-tertiary-icon btn-xs"
-									><i class="fas fa-share-alt"></i
-								></a>
-							</div>
-						</div>
-					</div>
-					<div class="main__about">
-						<h1 class="heading--1-medium">Vertical Cards</h1>
-						<h1 class="heading--3">
-							<ul class="feature__list">
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg">alert-error</code> :</span
-									>
-									Alert with an error
-								</li>
-
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">alert-success</code> :</span
-									>
-									Alert with an error
-								</li>
-
-								<li class="types">
-									<span class="color-primary"
-										><code class="code-bg">alert-info</code> :</span
-									>
-									Alert with an error
-								</li>
-
-								<li class="types">
-									<span class="color-primary">
-										<code class="code-bg"> alert-warning</code> :</span
-									>
-									Alert with an error
-								</li>
-							</ul>
-						</h1>
-					</div>
-					<div class="main__example row-container">
-						<div class="vertical-card">
-							<div class="card-img">
-								<span class="card-badge">New</span>
-								<img src="./src/product.jfif" alt="" />
-							</div>
-							<div class="card-text">
-								<h3 class="card-title">Green Tea Face Serum</h3>
-								<div class="card-price">
-									₹100 <span class="card-price-striked">₹100</span>
-								</div>
-							</div>
-							<div class="card-btn">
-								<div class="button-box">
-									<a href="" class="btn btn-primary">ADD TO CART</a>
-									<i class="fa fa-shopping-cart btn-box-icon"></i>
-								</div>
-								<a href="" class="btn btn-tertiary-icon"
-									><i class="fas fa-heart"></i
-								></a>
-							</div>
-						</div>
-						<div class="vertical-card">
-							<div class="card-img">
-								<img src="./src/product.jfif" alt="" />
-							</div>
-							<div class="card-text">
-								<h3 class="card-title">Green Tea Face Serum</h3>
-								<div class="card-price">
-									₹100 <span class="card-price-striked">₹100</span>
-								</div>
-							</div>
-							<div class="card-btn">
-								<div class="button-box">
-									<a href="" class="btn btn-primary">ADD TO CART</a>
-									<i class="fa fa-shopping-cart btn-box-icon"></i>
-								</div>
-								<a href="" class="btn btn-tertiary-icon"
-									><i class="fas fa-heart"></i
-								></a>
-							</div>
-						</div>
-						<div class="vertical-card">
-							<div class="card-img">
-								<div class="card-dismiss">
-									<i class="fas fa-times"></i>
-								</div>
-
-								<img src="./src/product.jfif" alt="" />
-							</div>
-							<div class="card-text">
-								<h3 class="card-title">Green Tea Face Serum</h3>
-								<div class="card-price">
-									₹100 <span class="card-price-striked">₹100</span>
-								</div>
-							</div>
-							<div class="card-btn">
-								<div class="button-box">
-									<a href="" class="btn btn-primary">ADD TO CART</a>
-									<i class="fa fa-shopping-cart btn-box-icon"></i>
-								</div>
-								<a href="" class="btn btn-tertiary-icon"
-									><i class="fas fa-heart"></i
-								></a>
-							</div>
-						</div>
-					</div>
-
-					<h1 class="heading--1-medium">Code</h1>
-					<div class="main__code">
-						<code class="main__code-bg">
-							<iframe
-								src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
-								style="border: 0; transform: scale(1); overflow: hidden"
-								sandbox="allow-scripts allow-same-origin"
-							>
-							</iframe>
-						</code>
-						<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
-					</div>
-				</section>
-				<!-- --------------------------- -->
-				<div class="u-margin-bottom-medium"></div>
-				<hr />
-				<div class="u-margin-bottom-medium"></div>
-				<!-- --------------------------- -->
-			</div>
-			<div class="doc-sidebar">
-				<h1
-					class="sidebar__heading u-margin-bottom-small u-center-text heading--1-medium"
-				>
-					Components
-				</h1>
-				<ul class="sidebar-list u-center-text">
-					<li class="sidebar__items">
-						<a class="sidebar__links" href="#alerts"> Alerts</a>
-					</li>
-					<li class="sidebar__items">
-						<a class="sidebar__links" href="#avatar"> Avatar</a>
-					</li>
-					<li class="sidebar__items">
-						<a class="sidebar__links" href="#badge"> Badge</a>
-					</li>
-					<li class="sidebar__items">
-						<a class="sidebar__links" href="#button"> Button</a>
-					</li>
-					<li class="sidebar__items">Cards</li>
-					<li class="sidebar__items">Form</li>
-					<li class="sidebar__items">Image</li>
-					<li class="sidebar__items">Lists</li>
-					<li class="sidebar__items">Modal</li>
-					<li class="sidebar__items">Navigation</li>
-					<li class="sidebar__items">Rating</li>
-					<li class="sidebar__items">Slider</li>
-					<li class="sidebar__items">Typography</li>
-					<li class="sidebar__items">Typography</li>
-					<li class="sidebar__items">Typography</li>
-				</ul>
-			</div>
-
-			<footer class="doc-footer footer flex-col-center bold">
-				<div class="footer__text-box">
-					Made with <span class="color-primary">&lt;/&gt;</span> by Aryan
-					Chaudhary
-				</div>
-				<div class="footer__icons-box">
-					<i class="footer__items footer__items-icons fab fa-github"></i>
-					<i class="footer__items footer__items-icons fab fa-twitter"></i>
-					<i class="footer__items footer__items-icons fab fa-linkedin"></i>
-				</div>
-				<div class="footer__copyright-box">
-					&copy; 2021 Lunar<span class="color-primary">UI</span>
-				</div>
-			</footer>
 		</div>
-		<script src="./script.js"></script>
-	</body>
+		<div class="doc-main">
+			<!-- -----------ALERTS--------- -->
+			<section class="doc-main-item" id="alerts">
+				<div class="main__header">
+					<h1 class="heading--1">Alerts</h1>
+					<h1 class="heading--2">
+						Alerts are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Usage and Example</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">alert-error</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-success</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-info</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> alert-warning</code> :</span>
+								Alert with an error
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example flex-col">
+					<div class="alert-box alert-error">
+						<span><i class="fas fa-exclamation-triangle"></i></span>
+						There was an error processing your request
+					</div>
+					<div class="alert-box alert-success">
+						<span><i class="fas fa-check-circle"></i></span>
+						There was an error processing your request
+					</div>
+					<div class="alert-box alert-info">
+						<span><i class="fas fa-info-circle"></i></span>
+						There was an error processing your request
+					</div>
+					<div class="alert-box alert-warning">
+						<span><i class="fas fa-exclamation-circle"></i></span>
+						There was an error processing your request
+					</div>
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+
+			<!-- -----------AVATAR--------- -->
+			<section class="doc-main-item" id="avatar">
+				<div class="main__header">
+					<h1 class="heading--1">Avatar</h1>
+					<h1 class="heading--2">
+						Avatar are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+				<!-- VARIANTS -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Variants</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-img</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-icon</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-text</code>
+								</span>
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<img class="avatar-circle avatar-sm avatar-img" src="./src/avatar.jpg" alt="" />
+
+					<div class="avatar-circle avatar-text avatar-sm">AC</div>
+					<div class="avatar-circle avatar-sm avatar-icon">
+						<i class="fas fa-camera"></i>
+					</div>
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SaaQsFhl56ZvTxwTZNZb"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+				<!-- SHAPES -->
+
+				<div class="main__about">
+					<h1 class="heading--1-medium">Shapes</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-circle</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-box</code>
+								</span>
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<div class="avatar-circle avatar-sm avatar-icon">
+						<i class="fas fa-camera"></i>
+					</div>
+					<div class="avatar-box avatar-sm avatar-icon">
+						<i class="fas fa-camera"></i>
+					</div>
+					<img class="avatar-img avatar-box avatar-sm" src="./src/avatar.jpg" alt="" />
+					<img class="avatar-img avatar-circle avatar-sm" src="./src/avatar.jpg" alt="" />
+					<div class="avatar-circle avatar-text avatar-sm">AC</div>
+
+					<div class="avatar-box avatar-text avatar-sm">AC</div>
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/FR5aTIZsbVHVfDQmDALR"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+				<!-- SIZES -->
+
+				<div class="main__about">
+					<h1 class="heading--1-medium">Sizes</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-xs</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-sm</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-md</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-lg</code>
+								</span>
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">avatar-xl</code>
+								</span>
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<img class="avatar-img avatar-circle avatar-xs" src="./src/avatar.jpg" alt="" />
+					<img class="avatar-img avatar-circle avatar-sm" src="./src/avatar.jpg" alt="" />
+					<img class="avatar-img avatar-circle avatar-md" src="./src/avatar.jpg" alt="" />
+					<img class="avatar-img avatar-circle avatar-lg" src="./src/avatar.jpg" alt="" />
+					<img class="avatar-img avatar-circle avatar-xl" src="./src/avatar.jpg" alt="" />
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/uqpdJ5ioeXbXEl1Mtrgn"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+			</section>
+			<!-- -------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+
+			<!-- -------------------------- -->
+			<section class="doc-main-item" id="badge">
+				<div class="main__header">
+					<h1 class="heading--1">Badges</h1>
+					<h1 class="heading--2">
+						Badges are used to highlight an item's status for quick
+						recognition.
+					</h1>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Variants</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">img-badge</code>
+								</span>
+								<br />
+								Avatar with a badge. These badges can be used with 4 variants
+								of avatar:
+								<span class="color-primary">
+									<code class="code-bg">avatar-xs</code>,
+								</span>
+								<span class="color-primary">
+									<code class="code-bg">avatar-sm</code>,
+								</span>
+								<span class="color-primary">
+									<code class="code-bg">avatar-md</code>,
+								</span>
+								<span class="color-primary">
+									<code class="code-bg">avatar-lg</code>
+								</span>
+								<br />
+								You can use:
+								<ol class="feature-list">
+									<li class="types">
+										<span class="color-primary">
+											<code class="code-bg">badge-online: </code>
+										</span>
+										A badge for online status
+									</li>
+									<br />
+									<li class="types">
+										<span class="color-primary">
+											<code class="code-bg">badge-offline: </code>
+										</span>
+										A badge for offline status
+									</li>
+									<br />
+									<li class="types">
+										<span class="color-primary">
+											<code class="code-bg">badge-dnd: </code>
+										</span>
+										A badge for do not disturb
+									</li>
+									<br />
+								</ol>
+							</li>
+							<br />
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">icon-badge</code>
+								</span>
+								<br />
+								This icon badge must be used with the
+								<span class="color-primary">
+									<code class="code-bg">btn-lg</code>
+								</span>
+								icon button:
+								<span class="color-primary">
+									<code class="code-bg">btn-tertiary-icon</code>
+								</span>
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<!-- AVATAR BADGE -->
+					<div class="badge-box">
+						<img class="avatar-img avatar-circle avatar-xs" src="./src/avatar.jpg" alt="" />
+						<span class="img-badge badge-online"></span>
+					</div>
+					<div class="badge-box">
+						<img class="avatar-img avatar-circle avatar-sm" src="./src/avatar.jpg" alt="" />
+						<span class="img-badge badge-offline"></span>
+					</div>
+					<div class="badge-box">
+						<img class="avatar-img avatar-circle avatar-md" src="./src/avatar.jpg" alt="" />
+						<span class="img-badge badge-online"></span>
+					</div>
+					<div class="badge-box">
+						<img class="avatar-img avatar-circle avatar-lg" src="./src/avatar.jpg" alt="" />
+						<span class="img-badge badge-dnd"></span>
+					</div>
+					<!-- ICON BADGE -->
+					<div class="badge-box">
+						<a href="" class="btn btn-tertiary-icon btn-lg"><i class="fas fa-bell"></i></a>
+						<span class="icon-badge">2</span>
+					</div>
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/B69CvQWYIrGN099uhpmD"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- -----------BUTTONS--------- -->
+			<section class="doc-main-item" id="button">
+				<div class="main__header">
+					<h1 class="heading--1">Buttons</h1>
+					<h1 class="heading--2">
+						The Button component is used to trigger an action or event, such
+						as submitting a form, opening a dialog, canceling an action, or
+						performing a delete operation.
+					</h1>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Variants</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">btn-primary</code> :</span>
+								Solid Button
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">btn-secondary</code> :</span>
+								Button with an outline
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">btn-ghost</code> :</span>
+								Button without an outline
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> btn-link</code> :</span>
+								Button for links
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> btn-link</code> :</span>
+								Button for links
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<a href="" class="btn btn-primary">Button</a>
+					<a href="" class="btn btn-secondary">Button</a>
+					<a href="" class="btn btn-ghost">Button</a>
+					<a href="" class="btn btn-link">Button</a>
+					<div class="button-box">
+						<a href="" class="btn btn-primary">Button</a>
+						<i class="fa fa-shopping-cart btn-box-icon"></i>
+					</div>
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Sizes</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">btn-xs</code>
+								</span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">btn-sm</code>
+								</span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">btn-md</code>
+								</span>
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> btn-lg</code>
+								</span>
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<a href="" class="btn btn-primary btn-xs">Button</a>
+					<a href="" class="btn btn-primary btn-sm">Button</a>
+					<a href="" class="btn btn-primary btn-md">Button</a>
+					<a href="" class="btn btn-primary btn-lg">Button</a>
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/QSb2kWE0rMGhx2rD0i5G"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Custom Buttons</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">btn-tertiary-float</code> :</span>
+								Floating button
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> btn-tertiary-icon</code> :</span>
+								Icon button
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<a href="" class="btn btn-tertiary-float"><i class="fas fa-arrow-up"></i></a>
+					<a href="" class="btn btn-tertiary-icon"><i class="fas fa-trash-alt"></i></a>
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/lK2cxOwWi1rreqdqSTJd"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- -----------INPUT COMPONENT--------- -->
+			<section class="doc-main-item" id="input">
+				<div class="main__header">
+					<h1 class="heading--1">Input</h1>
+					<h1 class="heading--2">
+						The Input component is a component that is used to get user input
+						in a text field.
+					</h1>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Basic</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-box</code> :</span>
+								A basic input field
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example flex-col">
+					<!-- BASIC INPUT -->
+					<input type="text" class="basic-input" placeholder="Basic Input" />
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Variants</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<!-- CLASSES FOR THE VARIANTS OF INPUT -->
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">valid-input</code> :</span>
+								A basic input field
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">invalid-input</code> :</span>
+								A basic input field
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">filled-input</code> :</span>
+								A basic input field
+							</li>
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-rounded</code> :</span>
+								A basic input field
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example flex-col">
+					<!-- INPUT WITH AN ICON -->
+					<div class="input-box">
+						<i class="fa fa-envelope input__box-icon"></i>
+						<input type="text" class="basic-input" placeholder="Input with an icon" />
+					</div>
+					<!-- VALID INPUT -->
+					<input type="text" class="basic-input valid-input" placeholder="Valid Input" />
+					<!-- INVALID INPUT -->
+					<input type="text" class="basic-input invalid-input" placeholder="Invalid Input" />
+					<!-- FILLED INPUT -->
+					<input type="text" class="basic-input filled-input" placeholder="Filled Input" />
+					<!-- INPUT WITH ROUNDED CORNERS -->
+					<input type="text" class="basic-input input-rounded" placeholder="Search..." />
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Sizes</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<!-- SMALL INPUT CLASS -->
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-sm</code> :</span>
+								A basic input field
+							</li>
+							<!-- MEDIUM INPUT CLASS -->
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-md</code> :</span>
+								A basic input field
+							</li>
+							<!-- LARGE INPUT CLASS -->
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">input-lg</code> :</span>
+								A basic input field
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example flex-col">
+					<!-- SMALL INPUT -->
+					<input type="text" class="basic-input input-sm" placeholder="Valid Input" />
+					<!-- MEDIUM INPUT -->
+					<input type="text" class="basic-input imput-md" placeholder="Invalid Input" />
+					<!-- LARGE INPUT -->
+					<input type="text" class="basic-input input-lg" placeholder="Search..." />
+				</div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- -------------CARDS-------------- -->
+			<section class="doc-main-item" id="cards">
+				<div class="main__header">
+					<h1 class="heading--1">Cards</h1>
+					<h1 class="heading--2">
+						Alerts are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+
+				<!-- HORIZONTAL CARDS -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Horizontal Cards</h1>
+				</div>
+				<div class="main__example row-container">
+					<div class="card-container">
+						<div class="img-box u-margin-bottom-small">
+							<img src="./src/img.jfif" alt="" />
+						</div>
+						<div class="card-header u-margin-bottom-small">
+							<h3 class="card-heading-primary">Our Changing Planet</h3>
+							<h4 class="card-heading-sub">By Aryan Chaudhary</h4>
+						</div>
+						<div class="card-body u-margin-bottom-small">
+							Visit ten places on our planet that are undergoing the biggest
+							changes today.
+						</div>
+						<div class="card-footer">
+							<a class="btn btn-primary btn-sm">Read This</a>
+							<a class="btn btn-primary btn-sm">Bookmark</a>
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+						</div>
+					</div>
+					<div class="card-container">
+						<div class="img-box u-margin-bottom-small">
+							<img src="./src/img.jfif" alt="" />
+						</div>
+						<div class="card-header overlay u-margin-bottom-small">
+							<h3 class="card-heading-primary">Our Changing Planet</h3>
+							<h4 class="card-heading-sub">By Aryan Chaudhary</h4>
+						</div>
+						<div class="card-body u-margin-bottom-small">
+							Visit ten places on our planet that are undergoing the biggest
+							changes today.
+						</div>
+						<div class="card-footer">
+							<a class="btn btn-primary btn-sm">Read This</a>
+							<a class="btn btn-primary btn-sm">Bookmark</a>
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Horizontal Cards</h1>
+				</div>
+				<div class="main__example row-container">
+					<div class="card-container">
+						<div class="card-header u-margin-bottom-small heading-top">
+							<h3 class="card-heading-primary">Our Changing Planet</h3>
+							<h4 class="card-heading-sub">By Aryan Chaudhary</h4>
+						</div>
+						<div class="card-body u-margin-bottom-small">
+							Visit ten places on our planet that are undergoing the biggest
+							changes today.
+						</div>
+						<div class="card-footer">
+							<a class="btn btn-primary btn-sm">Read This</a>
+							<a class="btn btn-primary btn-sm">Bookmark</a>
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+						</div>
+					</div>
+					<div class="card-container small">
+						<div class="flex">
+							<div class="img-box small-img u-margin-bottom-small">
+								<img src="./src/img.jfif" alt="" />
+							</div>
+
+							<div class="card-header card-header-small u-margin-bottom-small">
+								<h3 class="card-heading-primary">Our Changing Planet</h3>
+								<h4 class="card-heading-sub">By Aryan Chaudhary</h4>
+							</div>
+						</div>
+
+						<div class="card-footer">
+							<a class="btn btn-primary btn-sm">Read This</a>
+							<a class="btn btn-primary btn-sm">Bookmark</a>
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-heart"></i></a>
+
+							<a href="" class="btn btn-tertiary-icon btn-xs"><i class="fas fa-share-alt"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Vertical Cards</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">alert-error</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-success</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-info</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> alert-warning</code> :</span>
+								Alert with an error
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<div class="main__example row-container">
+					<div class="vertical-card">
+						<div class="card-img">
+							<span class="card-badge">New</span>
+							<img src="./src/product.jfif" alt="" />
+						</div>
+						<div class="card-text">
+							<h3 class="card-title">Green Tea Face Serum</h3>
+							<div class="card-price">
+								₹100 <span class="card-price-striked">₹100</span>
+							</div>
+						</div>
+						<div class="card-btn">
+							<div class="button-box">
+								<a href="" class="btn btn-primary">ADD TO CART</a>
+								<i class="fa fa-shopping-cart btn-box-icon"></i>
+							</div>
+							<a href="" class="btn btn-tertiary-icon"><i class="fas fa-heart"></i></a>
+						</div>
+					</div>
+					<div class="vertical-card">
+						<div class="card-img">
+							<img src="./src/product.jfif" alt="" />
+						</div>
+						<div class="card-text">
+							<h3 class="card-title">Green Tea Face Serum</h3>
+							<div class="card-price">
+								₹100 <span class="card-price-striked">₹100</span>
+							</div>
+						</div>
+						<div class="card-btn">
+							<div class="button-box">
+								<a href="" class="btn btn-primary">ADD TO CART</a>
+								<i class="fa fa-shopping-cart btn-box-icon"></i>
+							</div>
+							<a href="" class="btn btn-tertiary-icon"><i class="fas fa-heart"></i></a>
+						</div>
+					</div>
+					<div class="vertical-card">
+						<div class="card-img">
+							<div class="card-dismiss">
+								<i class="fas fa-times"></i>
+							</div>
+
+							<img src="./src/product.jfif" alt="" />
+						</div>
+						<div class="card-text">
+							<h3 class="card-title">Green Tea Face Serum</h3>
+							<div class="card-price">
+								₹100 <span class="card-price-striked">₹100</span>
+							</div>
+						</div>
+						<div class="card-btn">
+							<div class="button-box">
+								<a href="" class="btn btn-primary">ADD TO CART</a>
+								<i class="fa fa-shopping-cart btn-box-icon"></i>
+							</div>
+							<a href="" class="btn btn-tertiary-icon"><i class="fas fa-heart"></i></a>
+						</div>
+					</div>
+				</div>
+
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+					<!-- 	style="border: 0; transform: scale(1); overflow: hidden" -->
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- --------------------------- -->
+		</div>
+		<div class="doc-sidebar">
+			<h1 class="sidebar__heading u-margin-bottom-small u-center-text heading--1-medium">
+				Components
+			</h1>
+			<ul class="sidebar-list u-center-text">
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#alerts"> Alerts</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#avatar"> Avatar</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#badge"> Badge</a>
+				</li>
+				<li class="sidebar__items">
+					<a class="sidebar__links" href="#button"> Button</a>
+				</li>
+				<li class="sidebar__items">Cards</li>
+				<li class="sidebar__items">Form</li>
+				<li class="sidebar__items">Image</li>
+				<li class="sidebar__items">Lists</li>
+				<li class="sidebar__items">Modal</li>
+				<li class="sidebar__items">Navigation</li>
+				<li class="sidebar__items">Rating</li>
+				<li class="sidebar__items">Slider</li>
+				<li class="sidebar__items">Typography</li>
+				<li class="sidebar__items">Typography</li>
+				<li class="sidebar__items">Typography</li>
+			</ul>
+		</div>
+
+		<footer class="doc-footer footer flex-col-center bold">
+			<div class="footer__text-box">
+				Made with <span class="color-primary">&lt;/&gt;</span> by Aryan
+				Chaudhary
+			</div>
+			<div class="footer__icons-box">
+				<i class="footer__items footer__items-icons fab fa-github"></i>
+				<i class="footer__items footer__items-icons fab fa-twitter"></i>
+				<i class="footer__items footer__items-icons fab fa-linkedin"></i>
+			</div>
+			<div class="footer__copyright-box">
+				&copy; 2021 Lunar<span class="color-primary">UI</span>
+			</div>
+		</footer>
+	</div>
+	<script src="./script.js"></script>
+</body>
+
 </html>

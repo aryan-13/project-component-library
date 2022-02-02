@@ -11,9 +11,6 @@
 	box-shadow: -1px 1px 15px 0px rgba(176, 176, 176, 1);
 }
 
-.card-img img {
-	width: 100%;
-}
 .card-img {
 	width: 100%;
 	position: relative;
@@ -54,11 +51,9 @@
 	-moz-box-shadow: -1px 1px 15px 0px rgba(176, 176, 176, 1);
 	box-shadow: -1px 1px 15px 0px rgba(176, 176, 176, 1);
 }
-.img-box,
-img {
+.img-box {
 	width: 100%;
 }
-
 .card-heading-primary {
 	margin: 0;
 }
@@ -84,7 +79,6 @@ img {
 	display: flex;
 }
 .small-img {
-	/* height: 110px; */
 	width: 25%;
 }
 /* SMALL CARD MARGIN */
@@ -104,6 +98,6 @@ img {
 	color: var(--color-white);
 	padding: 7px 1.3rem;
 	padding: 7px 1.3rem;
-	right: 0rem;
+	right: 0;
 	cursor: pointer;
 }
