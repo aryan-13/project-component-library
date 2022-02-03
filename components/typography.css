@@ -1,0 +1,45 @@
+.heading-1,.heading-2,.heading-3,.heading-4,.heading-5{
+    padding:0;
+    font-weight:400;
+    margin:0;
+}
+/* Sizes */
+.heading-1{
+    font-size: 7rem;
+}
+.heading-2{
+    font-size: 6rem;
+}
+.heading-3{
+    font-size: 5rem;
+}
+.heading-4{
+    font-size: 3.4rem;
+}
+.heading-5{
+    font-size: 2.6rem;
+}
+/* P tag */
+.p-sm{
+    font-size:1.5rem;
+}
+.p-md{
+    font-size: 2rem;
+}
+.p-lg{
+    font-size: 2.5rem;
+}
+/* Text ALIGNMENT */
+.text-centered{
+    text-align:center;
+    box-sizing:border-box;
+}
+.text-left{
+    text-align:left;
+    box-sizing:border-box;
+
+}
+.text-right{
+    box-sizing:border-box;
+    text-align:right;
+}
