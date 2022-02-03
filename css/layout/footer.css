@@ -9,4 +9,5 @@
 }
 .footer__items-icons {
 	padding: 0 0.8rem;
+	cursor: pointer;
 }
