@@ -13,6 +13,9 @@
 	border-radius: 1rem;
 	padding: 1rem;
 }
+.flex-item{
+	padding: 2rem 3rem;
+}
 .main__code {
 	box-sizing: border-box;
 	width: 100%;
