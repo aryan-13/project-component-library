@@ -1,22 +1,27 @@
-.list-style{
+.list-style {
     margin: 1.2rem;
 }
-.square-bullets{
+
+.square-bullets {
     list-style-type: square;
 }
-.empty-bullets{
+
+.empty-bullets {
     list-style-type: circle;
 }
 
-.list-alpha-lower{
+.list-alpha-lower {
     list-style-type: lower-alpha;
 }
-.list-alpha-upper{
+
+.list-alpha-upper {
     list-style-type: upper-alpha;
 }
-.list-roman{
+
+.list-roman {
     list-style-type: upper-roman;
 }
-.no-bullets{
+
+.no-bullets {
     list-style-type: none;
 }
