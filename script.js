@@ -19,9 +19,9 @@ if(b.display == 'none'){
 
 window.addEventListener("resize", () => {
 	var w = window.innerWidth;
-	console.log(w);
+	// console.log(w);
 	if(w>=821){
-		console.log("i if called");
+		// console.log("i if called");
 		
 
 			document.querySelector('.hamburger-nav').style.display =  'none';
@@ -30,7 +30,7 @@ window.addEventListener("resize", () => {
 		doc.querySelector('.navigation').style.display = 'flex';
 
 	}else{
-		console.log("i else called");
+		// console.log("i else called");
 		document.querySelector('.hamburger-nav').style.display =  'block';
 
 		doc = document; bod = doc.body; htm = doc.documentElement;
@@ -38,7 +38,7 @@ window.addEventListener("resize", () => {
 	}
 });
 function toggleScroll(){
-	console.log("first");
+	// console.log("first");
   doc.querySelector('.navigation').style.display = htm.scrollTop > 180 ? 'none' : 'flex';
   doc.querySelector('.hamburger__button').style.borderRadius = htm.scrollTop > 180 ? '50%' : '0';
   doc.querySelector('.hamburger__button').style.transform = htm.scrollTop > 180 ? 'translate(-3rem, 3rem)' : 'translate(0rem)';

@@ -30,6 +30,10 @@
 .color-primary {
 	color: var(--color-primary);
 }
+.color-primary-dark {
+	color: var(--color-primary-dark);
+}
+
 .bold {
 	font-weight: 500;
 }

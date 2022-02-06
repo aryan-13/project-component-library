@@ -1,10 +1,10 @@
 .installation {
 	background-color: var(--color-grey-light-1);
 	grid-area: installation;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
+	display: flex;
+	flex-direction: column;
 	padding: 1rem 2rem;
+	height: 75vh;
 }
 
 .installation__text-box {
