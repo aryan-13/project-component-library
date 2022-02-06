@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
 	<div class="doc-container">
 		<div class="hamburger-nav ">
 			<!-- <input type="checkbox" class="hamburger__checkbox" id="navi-toggle"> -->
@@ -1346,6 +1347,110 @@
 			<hr />
 			<div class="u-margin-bottom-medium"></div>
 
+			<!-- -----------MODALS--------- -->
+			<section class="doc-main-item" id="modal">
+				<div class="main__header">
+					<h1 class="heading--1">Modals</h1>
+					<h1 class="heading--2">
+						Alerts are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Usage and Example</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg">alert-error</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-success</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary"><code class="code-bg">alert-info</code> :</span>
+								Alert with an error
+							</li>
+
+							<li class="types">
+								<span class="color-primary">
+									<code class="code-bg"> alert-warning</code> :</span>
+								Alert with an error
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+
+				<div class="main__example row-container">
+					<a href="" class="btn btn-primary modal-btn">Modal-1</a>
+					<a href="" class="btn btn-primary modal-btn">Modal-2 </a>
+					<div class="modal-box ">
+						<div class="modal">
+
+							<div class="modal-header flex">
+								<h1 class="heading-5">Modal Heading</h1>
+								<a href="" class="btn btn-tertiary-icon modal-dismiss"><i class="fas fa-times"></i></a>
+
+							</div>
+							<div class="modal-body">
+								<p class="p-1">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic magni tempora placeat?
+									Exercitationem porro quae libero iusto cumque natus rerum eveniet molestias
+									assumenda sunt veritatis, sequi minima ea a repudiandae aut ex cum ullam quidem
+									obcaecati aliquid. Culpa illum facilis modi sit quod inventore. Ab eos amet
+									laboriosam dicta eaque quam veniam, ex veritatis consectetur ad, expedita
+									repudiandae officiis quas!
+								</p>
+							</div>
+							<div class="modal-footer"></div>
+						</div>
+					</div>
+					<div class="modal-box ">
+
+						<div class="modal">
+
+							<div class="modal-header flex">
+								<h1 class="heading-5">Modal Heading</h1>
+								<a href="" class="btn btn-tertiary-icon modal-dismiss"><i class="fas fa-times"></i></a>
+
+							</div>
+							<div class="modal-body">
+								<p class="p-1">
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic magni tempora placeat?
+									Exercitationem porro quae libero iusto cumque natus rerum eveniet molestias
+
+								</p>
+							</div>
+							<div class="modal-footer">
+								<a href="" class="btn btn-primary">Save</a>
+								<a href="" class="btn btn-secondary">Cancel</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class="heading--1-medium">Code</h1>
+				<div class="main__code">
+					<code class="main__code-bg">
+						<iframe src="https://carbon.now.sh/embed/SL1bTXBHOxQs1dOfeEHC"
+							style="border: 0; transform: scale(1); overflow: hidden"
+							sandbox="allow-scripts allow-same-origin">
+						</iframe>
+					</code>
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
+			<!-- --------------------------- -->
 
 		</div>
 		<div class="doc-sidebar">
@@ -1384,7 +1489,7 @@
 					<a class="sidebar__links" href="#navigation"> Navigation</a>
 				</li>
 				<li class="sidebar__items">
-					<a class="sidebar__links" href="#button"> Modal</a>
+					<a class="sidebar__links" href="#modal"> Modal</a>
 				</li>
 				<li class="sidebar__items">
 					<a class="sidebar__links" href="#button"> Rating</a>
@@ -1417,6 +1522,7 @@
 		</footer>
 	</div>
 	<script src="./script.js"></script>
+	<script src="./components/Modal.js"></script>
 	<script src="./css/components/hamburger.js"></script>
 </body>
 
