@@ -20,16 +20,18 @@ if(b.display == 'none'){
 window.addEventListener("resize", () => {
 	var w = window.innerWidth;
 	console.log(w);
-	if(w>821){
+	if(w>=821){
+		console.log("i if called");
 		
 
-			doc.querySelector('.hamburger-nav').style.display =  'none';
+			document.querySelector('.hamburger-nav').style.display =  'none';
 			
 		removeEventListener('scroll', toggleScroll);
 		doc.querySelector('.navigation').style.display = 'flex';
 
 	}else{
-		doc.querySelector('.hamburger-nav').style.display =  'block';
+		console.log("i else called");
+		document.querySelector('.hamburger-nav').style.display =  'block';
 
 		doc = document; bod = doc.body; htm = doc.documentElement;
 		addEventListener('scroll',toggleScroll);
