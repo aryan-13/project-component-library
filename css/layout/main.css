@@ -16,11 +16,29 @@
 .flex-item{
 	padding: 2rem 3rem;
 }
+.collapsible{
+	background-color: var(--color-grey-light-2);
+	border-radius: 3px;
+	display: flex;
+	width: 25%;
+	height: 4rem;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	transition: all 0.1s;
+}
+.collapsible:hover{
+	transform: scale(1.04);
+	background-color: darkgrey;
+	
+}
 .main__code {
 	box-sizing: border-box;
 	width: 100%;
-	max-height: 300px;
-	padding: 1rem 0;
+	display: none;
+	max-height: 50rem;
+	padding: 2rem;
+	font-size:2rem;
 	margin: 2rem 0;
 	background-color: #fafafa;
 	overflow: auto;

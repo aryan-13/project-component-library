@@ -43,3 +43,16 @@ box-sizing: border-box;
 .text-right{
     text-align:right;
 }
+/* Weights */
+.bold-1{
+    font-weight:500;
+}
+.bold-2{
+    font-weight:600;
+}
+.bold-3{
+    font-weight:700;
+}
+.bold-0{
+    font-weight:400;
+}
