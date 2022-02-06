@@ -5,7 +5,7 @@ html {
 .doc-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-template-rows: 0.2fr 30fr 1.2fr;
+	grid-template-rows: 0.2fr 40fr 1.2fr;
 	grid-template-areas:
 		'nav nav nav nav nav'
 		'sidebar main main main main'
@@ -16,8 +16,7 @@ html {
 .doc-nav {
 	/* background-color: aqua; */
 	grid-area: nav;
-	/* position: sticky; */
-	/* top: 0; */
+	
 }
 .doc-sidebar {
 	grid-area: sidebar;
@@ -47,37 +46,40 @@ html {
 	}
 	.doc-container {
 		grid-template-columns: 1fr;
-		grid-template-rows: 18fr .2fr;
+		grid-template-rows: .2fr 40fr .2fr;
+
 		grid-template-areas:
 			
-			
+			'nav'
 			'main'
 			'footer';
 	}
 	.doc-sidebar{
 		display: none;
 	}
-	.doc-nav{
+	/* .doc-nav{
 		display: none;
-	}
+	} */
 }
+
+
 @media only screen and (max-width: 550px) {
 	html {
 		font-size: 45%;
 	}
 	.doc-container {
 		grid-template-columns: 1fr;
-		grid-template-rows: 18fr .2fr;
+		grid-template-rows: .2fr 40fr .2fr;
 		grid-template-areas:
 			
-			
+			'nav'
 			'main'
 			'footer';
 	}
 	.doc-sidebar{
 		display: none;
 	}
-	.doc-nav{
+	/* .doc-nav{
 		display: none;
-	}
+	} */
 }

@@ -29,8 +29,14 @@
 	padding: 1rem;
 	border-radius: 0.7rem;
 	cursor: pointer;
+	transition: transform 0.2s ;
 }
+/* .sidebar__items:hover{
+	transform: translateX(1rem);
+} */
 .sidebar__items:hover {
 	background-color: var(--color-primary-light);
 	color: var(--color-white);
+	transform: translateX(1rem);
+
 }
