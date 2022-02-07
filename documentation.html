@@ -23,7 +23,7 @@
 			<div class="hamburger__background">&nbsp;</div>
 			<nav class="hamburger__nav">
 				<ul class="hamburger__list invisible">
-				
+
 					<li class="hamburger__item">
 						<a class="hamburger__link" href="#alerts"> Alerts</a>
 					</li>
@@ -898,7 +898,7 @@
 			<div class="u-margin-bottom-medium"></div>
 			<hr />
 			<div class="u-margin-bottom-medium"></div>
-			<!-- --------------------------- -->
+			<!-- ------------TYPOGRAPHY--------------- -->
 			<section class="doc-main-item" id="typography">
 				<div class="main__header">
 					<h1 class="heading--1">Typography</h1>
@@ -1045,7 +1045,7 @@
 			<div class="u-margin-bottom-medium"></div>
 			<hr />
 			<div class="u-margin-bottom-medium"></div>
-			<!-- --------------------------- -->
+			<!-- -------------LISTS-------------- -->
 			<section class="doc-main-item" id="lists">
 				<div class="main__header">
 					<h1 class="heading--1">Lists</h1>
@@ -1413,6 +1413,99 @@
 			<hr />
 			<div class="u-margin-bottom-medium"></div>
 			<!-- --------------------------- -->
+			<section class="doc-main-item" id="snackbar">
+				<div class="main__header">
+					<h1 class="heading--1">Snackbar & Toasts</h1>
+					<h1 class="heading--2">
+						Alerts are used to communicate a state that affects a system,
+						feature or page.
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading--1-medium">Snackbar</h1>
+					<h1 class="heading--2">
+						Snackbars provide brief feedback about an operation through a message at the bottom of the
+						screen.
+					</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+							<li class="types">
+								The code below can be used to add snackbars!
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example row-container">
+
+					<div class="snackbar-body">
+						<button class="btn snack-toggle btn-primary">Basic Snackbar</button>
+						<button class="btn snack-toggle btn-primary">Stacked snackbar</button>
+					</div>
+
+
+					<div class="snackbar invisible">
+						<div class="snackbar-text">Can't send photo. Retry in 5 seconds.</div>
+						<button class="snackbar-btn btn">retry</button>
+						<i class="fas fa-times snackbar-icon"></i>
+					</div>
+
+					<div class="snackbar stacked invisible">
+						<div class="snackbar-text">
+							This item already has the label "travel". You can add a new label.
+						</div>
+						<div class="snackbar-btn-container">
+							<button class="snackbar-btn btn">Add new label</button>
+							<i class="fas fa-times snackbar-icon"></i>
+						</div>
+					</div>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading-5 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					<script src="https://gist.github.com/aryan-13/b5f2e7ed49e3a9ea98dd02832f624955.js"></script>
+				</div>
+				<div class="main__about">
+					<h1 class="heading--1-medium">Toast</h1>
+					<h1 class="heading--3">
+						<ul class="feature__list">
+
+							<li class="types">
+								The code below can be used to add Toasts!
+							</li>
+						</ul>
+					</h1>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example row-container">
+
+					<div class="snackbar-body">
+						<button class="btn toast-toggle btn-primary">Success</button>
+						<button class="btn toast-toggle btn-primary">Error</button>
+					</div>
+
+
+					<div class="toast-box toast-success invisible">
+						<div class="p-2">Saved!</div>
+					</div>
+					<div class="toast-box toast-error invisible">
+						<div class="p-2">Error!</div>
+
+					</div>
+				</div>
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading-5 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					<script src="https://gist.github.com/aryan-13/b5f2e7ed49e3a9ea98dd02832f624955.js"></script>
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
 
 		</div>
 		<div class="doc-sidebar">
@@ -1457,7 +1550,7 @@
 					<a class="sidebar__links" href="#button"> Rating</a>
 				</li>
 				<li class="sidebar__items">
-					<a class="sidebar__links" href="#button"> Toast</a>
+					<a class="sidebar__links" href="#snackbar"> Toast</a>
 				</li>
 				<li class="sidebar__items">
 					<a class="sidebar__links" href="#button"> Grids</a>
@@ -1484,6 +1577,7 @@
 		</footer>
 	</div>
 	<script src="./script.js"></script>
+	<script src="./components/snackbar.js"></script>
 	<script src="./code-collapse.js"></script>
 	<script src="./components/Modal.js"></script>
 	<script src="./css/components/hamburger.js"></script>
