@@ -11,3 +11,8 @@
 	top: 0;
 	z-index: 1000;
 }
+@media only screen and (max-width: 821px) {
+	.navigation__items--2{
+		display: none;
+	}
+}
