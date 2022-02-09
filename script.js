@@ -41,6 +41,7 @@ function toggleScroll(){
 	// console.log("first");
   doc.querySelector('.navigation').style.display = htm.scrollTop > 180 ? 'none' : 'flex';
   doc.querySelector('.hamburger__button').style.borderRadius = htm.scrollTop > 180 ? '50%' : '0';
+//   doc.querySelector('.hamburger__button').style.backgroundColor = htm.scrollTop > 180 ? 'var(--color-primary)' : 'var(--color-grey-light-1)';
   doc.querySelector('.hamburger__button').style.transform = htm.scrollTop > 180 ? 'translate(-3rem, 3rem)' : 'translate(0rem)';
 //   doc.querySelector('.hamburger__background').style.transform = htm.scrollTop > 180 ? 'translate(-3rem, 3rem)' : 'translate(0rem)';
 }
