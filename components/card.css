@@ -23,6 +23,7 @@
 	display: flex;
 	margin: 1rem 0;
 	justify-content: space-between;
+	align-items: center;
 }
 .card-btn-icon{
 	padding-right: 1.5rem;
