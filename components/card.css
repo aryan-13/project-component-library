@@ -22,8 +22,11 @@
 .card-btn {
 	display: flex;
 	margin: 1rem 0;
+	justify-content: space-between;
 }
-
+.card-btn-icon{
+	padding-right: 1.5rem;
+}
 .card-title {
 	margin: 1rem 0;
 }
