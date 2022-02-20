@@ -791,6 +791,8 @@
 				<!-- SMALL CARDS -->
 				<div class="main__about">
 					<h1 class="heading-4 bold-2">Horizontal Cards</h1>
+					<div class="u-margin-bottom-medium"></div>
+
 				</div>
 				<div class="main__example row-container">
 					<div class="card-container">
@@ -837,34 +839,11 @@
 				<div class="main__code">
 					<script src="https://gist.github.com/aryan-13/61fea403ab0394a108a858a4ffb42cb1.js"></script>
 				</div>
-
+				<div class="u-margin-bottom-small"></div>
+				<div class="u-margin-bottom-small"></div>
 				<div class="main__about">
 					<h1 class="heading-4 bold-2">Vertical Cards</h1>
-					<h1 class="heading--3">
-						<ul class="feature__list">
-							<li class="types">
-								<span class="color-primary">
-									<code class="code-bg">alert-error</code> :</span>
-								Alert with an error
-							</li>
-
-							<li class="types">
-								<span class="color-primary"><code class="code-bg">alert-success</code> :</span>
-								Alert with an error
-							</li>
-
-							<li class="types">
-								<span class="color-primary"><code class="code-bg">alert-info</code> :</span>
-								Alert with an error
-							</li>
-
-							<li class="types">
-								<span class="color-primary">
-									<code class="code-bg"> alert-warning</code> :</span>
-								Alert with an error
-							</li>
-						</ul>
-					</h1>
+					<div class="u-margin-bottom-medium"></div>
 				</div>
 				<div class="main__example row-container">
 					<!-- Card with a Badge -->
@@ -1194,6 +1173,8 @@
 				<div class="main__code">
 					<script src="https://gist.github.com/aryan-13/2a89fc7f012b08e57c227a76f30c4a0d.js"></script>
 				</div>
+				<div class="u-margin-bottom-small"></div>
+				<div class="u-margin-bottom-small"></div>
 				<!-- Ordered Lists -->
 				<div class="main__about">
 					<h1 class="heading-4 bold-2">Ordered Lists</h1>
@@ -1247,6 +1228,9 @@
 				<div class="main__code">
 					<script src="https://gist.github.com/aryan-13/8e722eb748261ca0f8caa74dfacfbc2d.js"></script>
 				</div>
+				<div class="u-margin-bottom-small"></div>
+				<div class="u-margin-bottom-small"></div>
+				<!-- Stacked lists -->
 				<div class="main__about">
 					<h1 class="heading-4 bold-2">Stacked Components</h1>
 					<h1 class="heading--3">
@@ -1568,6 +1552,9 @@
 				<div class="main__code">
 					<script src="https://gist.github.com/aryan-13/b5f2e7ed49e3a9ea98dd02832f624955.js"></script>
 				</div>
+				<div class="u-margin-bottom-small"></div>
+				<div class="u-margin-bottom-small"></div>
+				<!-- ----------TOAST--------- -->
 				<div class="main__about">
 					<h1 class="heading-4 bold-2">Toast</h1>
 					<h1 class="heading--3">
@@ -1644,6 +1631,56 @@
 			<div class="u-margin-bottom-medium"></div>
 			<!-- --------------------------- -->
 
+			<section class="doc-main-item" id="slider">
+				<div class="main__header">
+					<h1 class="heading-2 bold-1">Slider</h1>
+					<h1 class="p-lg bold-0 margin-small-tb">
+						Sliders are used to decide range for something like sound in videos, price in shopping sites,
+						etc.
+					</h1>
+				</div>
+				<!-- ABOUT SECTION AND CLASSES -->
+				<div class="main__about">
+					<h1 class="heading-4 bold-2">Usage and Example</h1>
+					<h1 class="p-lg bold-0 margin-small-tb">
+						The code provided can be used to add the slider.
+					</h1>
+					<div class="u-margin-bottom-medium"></div>
+				</div>
+				<!-- EXAMPLE BOX -->
+				<div class="main__example flex-col">
+					<div class="slider-container">
+						<input type="range" list="tickmarks" min="0" max="100" step="10" class="slider">
+						<datalist id="tickmarks">
+							<option value="0"></option>
+							<option value="10"></option>
+							<option value="20"></option>
+							<option value="30"></option>
+							<option value="40"></option>
+							<option value="50"></option>
+							<option value="60"></option>
+							<option value="70"></option>
+							<option value="80"></option>
+							<option value="90"></option>
+							<option value="100"></option>
+						</datalist>
+					</div>
+
+
+				</div>
+
+				<!-- CODE EXAMPLE -->
+				<div class="u-margin-bottom-small"></div>
+				<div class="u-margin-bottom-small"></div>
+				<h1 class=" heading-5 bold-0 collapsible">Code <i class="fas fa-code"></i></h1>
+				<div class="main__code">
+					<script src="https://gist.github.com/aryan-13/034cd6c9b20ad861994cb3353a67e0c6.js"></script>
+				</div>
+			</section>
+			<!-- --------------------------- -->
+			<div class="u-margin-bottom-medium"></div>
+			<hr />
+			<div class="u-margin-bottom-medium"></div>
 
 		</div>
 		<div class="doc-sidebar">
@@ -1694,7 +1731,7 @@
 					<a class="sidebar__links" href="#button"> Grids</a>
 				</li>
 				<li class="sidebar__items">
-					<a class="sidebar__links" href="#button"> Slider</a>
+					<a class="sidebar__links" href="#slider"> Slider</a>
 				</li>
 			</ul>
 		</div>
@@ -1721,6 +1758,7 @@
 	<script src="./components/snackbar.js"></script>
 	<script src="./code-collapse.js"></script>
 	<script src="./components/Modal.js"></script>
+	<script src="./components/slider.js"></script>
 	<script src="./css/components/hamburger.js"></script>
 </body>
 
