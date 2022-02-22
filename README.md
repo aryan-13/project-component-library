@@ -12,7 +12,7 @@ A blazing fast component library.
 To get started add the following link tag to your head element of the HTML file.
 
 ```bash
-  <link rel="stylesheet" href="https://lunar-ui.netlify.app/component.css">
+  <link rel="stylesheet" href="https://lunar-ui.netlify.app/component.css" />
 ```
     
 ## Documentation
