@@ -46,45 +46,59 @@ img {
 
 	--color-white: #fff;
 	--color-black: #2f2e41;
-}
-* {
-	box-sizing: border-box;
-	
+
 
 }
+
+[dark-theme="dark"] {
+	--color-bg: #2f2e41;
+	--color-font: #EDEEEE;
+	--color-border: #777;
+	--color-code-btn: 
+}
+
+* {
+	box-sizing: border-box;
+
+
+}
+
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 }
+
 a {
 	text-decoration: none;
 	color: inherit;
 }
+
 body {
 	font-family: 'Roboto', sans-serif;
-	
 }
+
 /* width */
 ::-webkit-scrollbar {
 	width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 5px grey; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
 	border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: var(--color-primary); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--color-primary);
 	border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-	background: var(--color-tertiary-dark); 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-tertiary-dark);
+}
+
 @media only screen and (max-width: 800px) {
 	html {
 		font-size: 43.75%;
